@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 Simple Broker", "01 Simple Broker", "{94B77818-5338-42AB-9D8C-CCCD07CE31B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 Simple Broker", "01 Simple Broker\01 Simple Broker.csproj", "{303DCDE7-88AD-42D4-BED1-DA9516F9C77E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 Reactive Extensions Broker", "02 Reactive Extensions Broker", "{336B857A-29A2-46D6-9AB2-01426B528862}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 Reactive Extensions Broker", "02 Reactive Extensions Broker\02 Reactive Extensions Broker.csproj", "{FBBA9235-AF1A-4E39-9BF7-DBBDC3BE8296}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 Unity Broker", "03 Unity Broker", "{E31F89EA-F0DA-4BAE-B6B7-FAC6F384F7C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 Unity Broker", "03 Unity Broker\03 Unity Broker.csproj", "{9C171516-72CD-4B33-8BE4-EC07DBC086D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{303DCDE7-88AD-42D4-BED1-DA9516F9C77E}.Debug|x86.ActiveCfg = Debug|x86
+		{303DCDE7-88AD-42D4-BED1-DA9516F9C77E}.Debug|x86.Build.0 = Debug|x86
+		{303DCDE7-88AD-42D4-BED1-DA9516F9C77E}.Release|x86.ActiveCfg = Release|x86
+		{303DCDE7-88AD-42D4-BED1-DA9516F9C77E}.Release|x86.Build.0 = Release|x86
+		{FBBA9235-AF1A-4E39-9BF7-DBBDC3BE8296}.Debug|x86.ActiveCfg = Debug|x86
+		{FBBA9235-AF1A-4E39-9BF7-DBBDC3BE8296}.Debug|x86.Build.0 = Debug|x86
+		{FBBA9235-AF1A-4E39-9BF7-DBBDC3BE8296}.Release|x86.ActiveCfg = Release|x86
+		{FBBA9235-AF1A-4E39-9BF7-DBBDC3BE8296}.Release|x86.Build.0 = Release|x86
+		{9C171516-72CD-4B33-8BE4-EC07DBC086D7}.Debug|x86.ActiveCfg = Debug|x86
+		{9C171516-72CD-4B33-8BE4-EC07DBC086D7}.Debug|x86.Build.0 = Debug|x86
+		{9C171516-72CD-4B33-8BE4-EC07DBC086D7}.Release|x86.ActiveCfg = Release|x86
+		{9C171516-72CD-4B33-8BE4-EC07DBC086D7}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{303DCDE7-88AD-42D4-BED1-DA9516F9C77E} = {94B77818-5338-42AB-9D8C-CCCD07CE31B2}
+		{FBBA9235-AF1A-4E39-9BF7-DBBDC3BE8296} = {336B857A-29A2-46D6-9AB2-01426B528862}
+		{9C171516-72CD-4B33-8BE4-EC07DBC086D7} = {E31F89EA-F0DA-4BAE-B6B7-FAC6F384F7C1}
+	EndGlobalSection
+EndGlobal
